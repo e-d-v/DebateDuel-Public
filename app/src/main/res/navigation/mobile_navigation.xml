@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_picks">
+
+    <fragment
+        android:id="@+id/navigation_picks"
+        android:name="com.evanv.debateduel.ui.picks.PicksFragment"
+        android:label="@string/title_picks"
+        tools:layout="@layout/fragment_picks" />
+
+    <fragment
+        android:id="@+id/navigation_leagues"
+        android:name="com.evanv.debateduel.ui.leagues.LeaguesFragment"
+        android:label="@string/title_leagues"
+        tools:layout="@layout/fragment_leagues" />
+
+    <fragment
+        android:id="@+id/navigation_results"
+        android:name="com.evanv.debateduel.ui.results.ResultsFragment"
+        android:label="@string/title_results"
+        tools:layout="@layout/fragment_results" />
+</navigation>

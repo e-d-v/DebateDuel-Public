@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:orderInCategory="0"
+        app:showAsAction="always"
+        android:id="@+id/add_league"
+        app:iconTint="@color/chevron"
+        android:icon="@drawable/baseline_add_24"
+        android:title="@string/add_league" />
+    <item
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:id="@+id/show_user"
+        app:iconTint="@color/chevron"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="@string/show_user" />
+</menu>
